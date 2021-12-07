@@ -39,7 +39,7 @@ export default function TypeAheadDropDown() {
     const setSuggestionsData = (searched) =>{
         var suggestedData = []
 
-        if(searched.length == 0 || searched == ' ' ){
+        if(searched.length === 0 || searched === ' ' ){
             console.log('searched is empty..')
             setSuggestions(suggestedData)
         }else{
