@@ -1,0 +1,73 @@
+TypeAheadDropDown{
+    width: 200px;
+    border: 1px solid gray;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1), 0 2px 4px 1px rgba(0,0,0, .18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+   }
+    
+   .TypeAheadDropDown input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    padding: 15px 10px ;
+    box-sizing: border-box;
+    outline: none;
+    background:rgba(211, 211, 211, 0.18);
+   }
+   .TypeAheadDropDown ul::before{
+    content: '';
+   }
+    
+   .TypeAheadDropDown ul{
+   list-style-type: none;
+   text-align: left;
+   margin: 0;
+   padding: 0;
+   border-top: 1px solid gray;
+   }
+    
+   .TypeAheadDropDown li{
+    padding: 10px 5px ;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 3px;
+   }
+    
+   .TypeAheadDropDown li:hover{
+    background: lightgray;
+   }
+
+   .TypeAheadDropDown img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: width 20s, height 20s;
+    transition-timing-function: ease;
+   }
+
+   .TypeAheadDropDown img:hover{
+    max-width: 100px;
+    max-height: 100px;
+   }
+
+   .TypeAheadDropDown h3{
+    margin-top: -3px;
+    margin-bottom: -15px;
+    margin-left: 10px;
+   }
+
+   .TypeAheadDropDown p{
+    margin-left: 10px;
+   }
+    
+   .App{
+    margin: 150px auto 0 auto;
+    width: 80%;
+   }
